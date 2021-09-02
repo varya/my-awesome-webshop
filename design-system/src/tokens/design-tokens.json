@@ -1,5 +1,462 @@
 {
+  "sizes": {
+    "sizexs": {
+      "category": "size",
+      "exportKey": "size",
+      "value": 2,
+      "type": "number",
+      "unit": "pixel"
+    },
+    "sizesm": {
+      "category": "size",
+      "exportKey": "size",
+      "value": 4,
+      "type": "number",
+      "unit": "pixel"
+    },
+    "sizebase": {
+      "category": "size",
+      "exportKey": "size",
+      "value": 8,
+      "type": "number",
+      "unit": "pixel"
+    },
+    "sizemd": {
+      "category": "size",
+      "exportKey": "size",
+      "value": 12,
+      "type": "number",
+      "unit": "pixel"
+    },
+    "sizelg": {
+      "category": "size",
+      "exportKey": "size",
+      "value": 16,
+      "type": "number",
+      "unit": "pixel"
+    },
+    "sizexl": {
+      "category": "size",
+      "exportKey": "size",
+      "value": 20,
+      "type": "number",
+      "unit": "pixel"
+    },
+    "size2xl": {
+      "category": "size",
+      "exportKey": "size",
+      "value": 24,
+      "type": "number",
+      "unit": "pixel"
+    },
+    "size3xl": {
+      "category": "size",
+      "exportKey": "size",
+      "value": 32,
+      "type": "number",
+      "unit": "pixel"
+    },
+    "size4xl": {
+      "category": "size",
+      "exportKey": "size",
+      "value": 64,
+      "type": "number",
+      "unit": "pixel"
+    }
+  },
+  "spacing": {
+    "spacexs": {
+      "category": "spacing",
+      "exportKey": "spacing",
+      "top": {
+        "value": 2,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "right": {
+        "value": 2,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "bottom": {
+        "value": 2,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "left": {
+        "value": 2,
+        "type": "number",
+        "unit": "pixel"
+      }
+    },
+    "spacesm": {
+      "category": "spacing",
+      "exportKey": "spacing",
+      "top": {
+        "value": 4,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "right": {
+        "value": 4,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "bottom": {
+        "value": 4,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "left": {
+        "value": 4,
+        "type": "number",
+        "unit": "pixel"
+      }
+    },
+    "spacebase": {
+      "category": "spacing",
+      "exportKey": "spacing",
+      "top": {
+        "value": 8,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "right": {
+        "value": 8,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "bottom": {
+        "value": 8,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "left": {
+        "value": 8,
+        "type": "number",
+        "unit": "pixel"
+      }
+    },
+    "spacemd": {
+      "category": "spacing",
+      "exportKey": "spacing",
+      "top": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "right": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "bottom": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "left": {
+        "value": 12,
+        "type": "number",
+        "unit": "pixel"
+      }
+    },
+    "spacelg": {
+      "category": "spacing",
+      "exportKey": "spacing",
+      "top": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "right": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "bottom": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "left": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      }
+    },
+    "spacexl": {
+      "category": "spacing",
+      "exportKey": "spacing",
+      "top": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "right": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "bottom": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "left": {
+        "value": 20,
+        "type": "number",
+        "unit": "pixel"
+      }
+    },
+    "space2xl": {
+      "category": "spacing",
+      "exportKey": "spacing",
+      "top": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "right": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "bottom": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "left": {
+        "value": 24,
+        "type": "number",
+        "unit": "pixel"
+      }
+    },
+    "space3xl": {
+      "category": "spacing",
+      "exportKey": "spacing",
+      "top": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "right": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "bottom": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "left": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      }
+    },
+    "space4xl": {
+      "category": "spacing",
+      "exportKey": "spacing",
+      "top": {
+        "value": 64,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "right": {
+        "value": 64,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "bottom": {
+        "value": 64,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "left": {
+        "value": 64,
+        "type": "number",
+        "unit": "pixel"
+      }
+    }
+  },
+  "radii": {
+    "radiussm": {
+      "category": "radius",
+      "exportKey": "radius",
+      "radius": {
+        "value": 4,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "radiusType": {
+        "value": "single",
+        "type": "string"
+      },
+      "radii": {
+        "topLeft": {
+          "value": 4,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "topRight": {
+          "value": 4,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "bottomRight": {
+          "value": 4,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "bottomLeft": {
+          "value": 4,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "smoothing": {
+        "value": 0,
+        "type": "number"
+      }
+    },
+    "radiusmd": {
+      "category": "radius",
+      "exportKey": "radius",
+      "radius": {
+        "value": 4,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "radiusType": {
+        "value": "single",
+        "type": "string"
+      },
+      "radii": {
+        "topLeft": {
+          "value": 4,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "topRight": {
+          "value": 4,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "bottomRight": {
+          "value": 4,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "bottomLeft": {
+          "value": 4,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "smoothing": {
+        "value": 0,
+        "type": "number"
+      }
+    },
+    "radiusxl": {
+      "category": "radius",
+      "exportKey": "radius",
+      "radius": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "radiusType": {
+        "value": "single",
+        "type": "string"
+      },
+      "radii": {
+        "topLeft": {
+          "value": 16,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "topRight": {
+          "value": 16,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "bottomRight": {
+          "value": 16,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "bottomLeft": {
+          "value": 16,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "smoothing": {
+        "value": 0,
+        "type": "number"
+      }
+    },
+    "radius2xl": {
+      "category": "radius",
+      "exportKey": "radius",
+      "radius": {
+        "value": 32,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "radiusType": {
+        "value": "single",
+        "type": "string"
+      },
+      "radii": {
+        "topLeft": {
+          "value": 32,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "topRight": {
+          "value": 32,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "bottomRight": {
+          "value": 32,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "bottomLeft": {
+          "value": 32,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "smoothing": {
+        "value": 0,
+        "type": "number"
+      }
+    }
+  },
   "color": {
+    "background": {
+      "500": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(255, 255, 255, 1)",
+        "type": "color"
+      }
+    },
+    "on background": {
+      "500": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(12, 17, 24, 1)",
+        "type": "color"
+      }
+    },
     "on surface": {
       "50": {
         "category": "color",
@@ -59,6 +516,215 @@
         "category": "color",
         "exportKey": "color",
         "value": "rgba(12, 17, 24, 1)",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "50": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(254, 248, 246, 1)",
+        "type": "color"
+      },
+      "100": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(251, 212, 204, 1)",
+        "type": "color"
+      },
+      "200": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(249, 178, 162, 1)",
+        "type": "color"
+      },
+      "300": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(246, 145, 120, 1)",
+        "type": "color"
+      },
+      "400": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(243, 113, 78, 1)",
+        "type": "color"
+      },
+      "500": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(241, 82, 35, 1)",
+        "type": "color"
+      },
+      "600": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(214, 70, 28, 1)",
+        "type": "color"
+      },
+      "700": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(186, 59, 21, 1)",
+        "type": "color"
+      },
+      "800": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(157, 48, 15, 1)",
+        "type": "color"
+      },
+      "900": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(128, 37, 10, 1)",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "50": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(248, 247, 252, 1)",
+        "type": "color"
+      },
+      "100": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(213, 211, 235, 1)",
+        "type": "color"
+      },
+      "200": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(213, 211, 235, 1)",
+        "type": "color"
+      },
+      "300": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(145, 138, 203, 1)",
+        "type": "color"
+      },
+      "400": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(112, 102, 187, 1)",
+        "type": "color"
+      },
+      "500": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(80, 65, 171, 1)",
+        "type": "color"
+      },
+      "600": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(69, 55, 151, 1)",
+        "type": "color"
+      },
+      "700": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(58, 46, 131, 1)",
+        "type": "color"
+      },
+      "800": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(48, 37, 110, 1)",
+        "type": "color"
+      },
+      "900": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(37, 29, 89, 1)",
+        "type": "color"
+      }
+    },
+    "info": {
+      "100": {
+        "category": "color",
+        "exportKey": "color",
+        "comment": "214FC5",
+        "value": "rgba(34, 80, 198, 1)",
+        "type": "color"
+      },
+      "200": {
+        "category": "color",
+        "exportKey": "color",
+        "comment": "163480",
+        "value": "rgba(22, 52, 129, 1)",
+        "type": "color"
+      }
+    },
+    "danger": {
+      "50": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(249, 235, 241, 1)",
+        "type": "color"
+      },
+      "100": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(244, 207, 222, 1)",
+        "type": "color"
+      },
+      "200": {
+        "category": "color",
+        "exportKey": "color",
+        "value": "rgba(241, 176, 200, 1)",
+        "type": "color"
+      },
+      "300": {
+        "category": "color",
+        "exportKey": "color",
+        "comment": "F18FB1",
+        "value": "rgba(241, 143, 177, 1)",
+        "type": "color"
+      },
+      "400": {
+        "category": "color",
+        "exportKey": "color",
+        "comment": "F36B97",
+        "value": "rgba(243, 107, 151, 1)",
+        "type": "color"
+      },
+      "500": {
+        "category": "color",
+        "exportKey": "color",
+        "comment": "F7457A",
+        "value": "rgba(247, 69, 123, 1)",
+        "type": "color"
+      },
+      "600": {
+        "category": "color",
+        "exportKey": "color",
+        "comment": "DB3A6B",
+        "value": "rgba(219, 58, 107, 1)",
+        "type": "color"
+      },
+      "700": {
+        "category": "color",
+        "exportKey": "color",
+        "comment": "BE2F5A",
+        "value": "rgba(190, 47, 90, 1)",
+        "type": "color"
+      },
+      "800": {
+        "category": "color",
+        "exportKey": "color",
+        "comment": "9F254B",
+        "value": "rgba(159, 37, 75, 1)",
+        "type": "color"
+      },
+      "900": {
+        "category": "color",
+        "exportKey": "color",
+        "comment": "801C3B",
+        "value": "rgba(128, 28, 59, 1)",
         "type": "color"
       }
     }
@@ -575,6 +1241,384 @@
       "textCase": {
         "value": "none",
         "type": "string"
+      }
+    }
+  },
+  "effect": {
+    "shadow": {
+      "sm": {
+        "category": "effect",
+        "exportKey": "effect",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 2,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(0, 0, 0, 0.05)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 1,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "default": {
+        "0": {
+          "type": {
+            "value": "dropShadow",
+            "type": "string"
+          },
+          "radius": {
+            "value": 3,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "color": {
+            "value": "rgba(0, 0, 0, 0.1)",
+            "type": "color"
+          },
+          "offset": {
+            "x": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            },
+            "y": {
+              "value": 1,
+              "type": "number",
+              "unit": "pixel"
+            }
+          },
+          "spread": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "1": {
+          "type": {
+            "value": "dropShadow",
+            "type": "string"
+          },
+          "radius": {
+            "value": 3,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "color": {
+            "value": "rgba(0, 0, 0, 0.06)",
+            "type": "color"
+          },
+          "offset": {
+            "x": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            },
+            "y": {
+              "value": 1,
+              "type": "number",
+              "unit": "pixel"
+            }
+          },
+          "spread": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "category": "effect",
+        "exportKey": "effect"
+      },
+      "md": {
+        "0": {
+          "type": {
+            "value": "dropShadow",
+            "type": "string"
+          },
+          "radius": {
+            "value": 6,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "color": {
+            "value": "rgba(0, 0, 0, 0.1)",
+            "type": "color"
+          },
+          "offset": {
+            "x": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            },
+            "y": {
+              "value": 4,
+              "type": "number",
+              "unit": "pixel"
+            }
+          },
+          "spread": {
+            "value": -1,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "1": {
+          "type": {
+            "value": "dropShadow",
+            "type": "string"
+          },
+          "radius": {
+            "value": 4,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "color": {
+            "value": "rgba(0, 0, 0, 0.06)",
+            "type": "color"
+          },
+          "offset": {
+            "x": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            },
+            "y": {
+              "value": 2,
+              "type": "number",
+              "unit": "pixel"
+            }
+          },
+          "spread": {
+            "value": -1,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "category": "effect",
+        "exportKey": "effect"
+      },
+      "lg": {
+        "0": {
+          "type": {
+            "value": "dropShadow",
+            "type": "string"
+          },
+          "radius": {
+            "value": 15,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "color": {
+            "value": "rgba(0, 0, 0, 0.1)",
+            "type": "color"
+          },
+          "offset": {
+            "x": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            },
+            "y": {
+              "value": 10,
+              "type": "number",
+              "unit": "pixel"
+            }
+          },
+          "spread": {
+            "value": -3,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "1": {
+          "type": {
+            "value": "dropShadow",
+            "type": "string"
+          },
+          "radius": {
+            "value": 4,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "color": {
+            "value": "rgba(0, 0, 0, 0.05)",
+            "type": "color"
+          },
+          "offset": {
+            "x": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            },
+            "y": {
+              "value": 6,
+              "type": "number",
+              "unit": "pixel"
+            }
+          },
+          "spread": {
+            "value": -2,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "category": "effect",
+        "exportKey": "effect"
+      },
+      "xl": {
+        "0": {
+          "type": {
+            "value": "dropShadow",
+            "type": "string"
+          },
+          "radius": {
+            "value": 25,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "color": {
+            "value": "rgba(0, 0, 0, 0.1)",
+            "type": "color"
+          },
+          "offset": {
+            "x": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            },
+            "y": {
+              "value": 20,
+              "type": "number",
+              "unit": "pixel"
+            }
+          },
+          "spread": {
+            "value": -5,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "1": {
+          "type": {
+            "value": "dropShadow",
+            "type": "string"
+          },
+          "radius": {
+            "value": 10,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "color": {
+            "value": "rgba(0, 0, 0, 0.04)",
+            "type": "color"
+          },
+          "offset": {
+            "x": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            },
+            "y": {
+              "value": 10,
+              "type": "number",
+              "unit": "pixel"
+            }
+          },
+          "spread": {
+            "value": -5,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "category": "effect",
+        "exportKey": "effect"
+      },
+      "2xl": {
+        "category": "effect",
+        "exportKey": "effect",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 50,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(0, 0, 0, 0.25)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 25,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": -12,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "inner": {
+        "category": "effect",
+        "exportKey": "effect",
+        "type": {
+          "value": "innerShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 4,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(0, 0, 0, 0.06)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 2,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
       }
     }
   }

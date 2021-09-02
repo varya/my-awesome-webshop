@@ -6,6 +6,7 @@
 import React from "react";
 import styled, { css } from "styled-components";
 import { colors } from "../../tokens";
+import { sizes } from "../../tokens";
 import { bool, string } from "prop-types";
 import { StyledIcon } from "../Icon";
 
@@ -25,7 +26,7 @@ const StyledButton = styled.button`
   cursor: pointer;
   outline: none;
   box-sizing: border-box;
-  line-height: 24px;
+  line-height: ${sizes.size2xl};
   position: relative;
   user-select: none;
   text-decoration: none;
