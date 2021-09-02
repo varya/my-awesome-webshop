@@ -14,7 +14,7 @@ const Home = () => {
     <div>
       <StyledDiv1>
         <StyledDiv2>
-          <StyledImage1 src={data.user.avatar} />
+          {/* <Avatar image={data.user.avatar} /> */}
           <Button isOutline>
             <Icon name="menu" />
           </Button>
