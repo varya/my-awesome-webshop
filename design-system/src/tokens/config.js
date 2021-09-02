@@ -26,6 +26,13 @@ module.exports = {
       transforms: ["size/px", "name/ti/camel"],
       /* We split tokens into separate files - it will be easier to use them this way */
       files: [
+        {
+          destination: "sizes.js",
+          format: "javascript/es6",
+          filter: {
+            category: "size",
+          },
+        },
         /* Filter and extract typography tokens */
         {
           destination: "typography.js",
